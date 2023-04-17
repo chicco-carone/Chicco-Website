@@ -1,0 +1,121 @@
+*s{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(img/background_dark.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  .button_theme {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    color:linear-gradient(to right, white, black);;
+    background:linear-gradient(to right, white, black);;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button_theme:hover {
+    background-color: #000000;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .profile-name {
+    font-size: 36px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .profile-description {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .discord {
+    background-color: #7289da;
+  }
+  .telegram {
+    background-color: #2ca5e0;
+  }
+  .steam {
+    background-color: #0C467C;
+  }
+  .reddit {
+    background-color: #FF5410;}
+
+  .spotify{
+    background-color: #1ED760;
+  }
+  .github{
+    background-color: #232428;
+  }
+  .xbox {
+    background-color: #107C10;
+  }
+  .chi_sono {
+    background-color: #930030;
+  }
+
+  .social-icon {
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .line {
+    border-top: 1px solid #fff;
+  }
+  .top-right-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
