@@ -7,9 +7,12 @@
 body {
   background: rgb(120, 0, 48);
   background: radial-gradient(circle, rgba(120, 0, 48, 1) 7%, rgba(75, 0, 30, 1) 21%, rgba(58, 0, 23, 1) 52%, rgba(12, 0, 5, 1) 90%, rgba(0, 0, 0, 1) 93%, rgba(0, 0, 0, 1) 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .button_theme {
