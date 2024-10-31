@@ -1,4 +1,4 @@
-*s{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -118,4 +118,21 @@
     position: fixed;
     top: 10px;
     right: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .profile-image {
+      width: 100px;
+      height: 100px;
+    }
+    .profile-name {
+      font-size: 24px;
+    }
+    .profile-description {
+      font-size: 18px;
+    }
+    .social-btn {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
   }
