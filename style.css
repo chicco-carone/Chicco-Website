@@ -13,6 +13,8 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  min-height: 100vh;
+  background-size: cover;
 }
 
 .button_theme {
@@ -35,7 +37,6 @@ body {
 }
 
 .container {
-  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
